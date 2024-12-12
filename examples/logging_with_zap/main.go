@@ -8,12 +8,12 @@ import (
 )
 
 type Nested struct {
-	NestedData string `json:"nested_data"`
+	NestedData string
 }
 type MyStruct struct {
-	Num    int     `json:"num"`
-	Str    string  `json:"str"`
-	Nested *Nested `json:"nested"`
+	Num    int
+	Str    string
+	Nested *Nested
 }
 
 func main() {
