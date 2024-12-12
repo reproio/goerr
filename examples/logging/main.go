@@ -6,7 +6,7 @@ import (
 
 	"log/slog"
 
-	"github.com/abyssparanoia/goerr"
+	"github.com/reproio/goerr"
 )
 
 var errRuntime = errors.New("runtime error")

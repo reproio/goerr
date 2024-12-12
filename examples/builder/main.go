@@ -3,7 +3,7 @@ package main
 import (
 	"log/slog"
 
-	"github.com/abyssparanoia/goerr"
+	"github.com/reproio/goerr"
 )
 
 type object struct {
