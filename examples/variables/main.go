@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/abyssparanoia/goerr"
+	"github.com/reproio/goerr"
 )
 
 var errFormatMismatch = errors.New("format mismatch")
