@@ -211,6 +211,14 @@ func (x *Error) ID(id string) *Error {
 	return x
 }
 
+// Clone creates a new error extends receiver error's info
+// No side effect to receiver
+func (x *Error) Clone() *Error {
+	err := newError()
+	x.copy(err)
+	return err
+}
+
 // Wrap creates a new Error and copy message and id to new one.
 func (x *Error) Wrap(cause error) *Error {
 	err := newError()
